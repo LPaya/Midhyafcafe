@@ -129,9 +129,17 @@ footer {
     justify-content: center;
 }
 
+.delivery a {
+    transition: transform 0.3s ease;
+}
+
+.delivery a:hover {
+    transform: scale(1.1);
+}
+
 .delivery-img {
     width: 5vw;
-    height: 8vh;
+    height: 7vh;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
@@ -173,11 +181,11 @@ h5 {
     
     .delivery-img {
         width: 11vw;
-        height: 7vh;
+        height: 6.5vh;
     }
 
     .the-chefz {
-        width: 18vw;
+        width: auto;
     }
 
     .delivery-p {
@@ -216,12 +224,12 @@ h5 {
     }
 
     .delivery-img {
-        width: 18vw;
-        height: 14vw;
+        width: 16vw;
+        height: 13vw;
     }
 
     .the-chefz {
-        width: 25vw;
+        width: auto;
     }
 
     .delivery-p {
